@@ -109,3 +109,9 @@ Temporary Items
 *.bat
 *.xml
 *.properties
+chap01-literal-and-variable-lecture-source/gradlew
+chap01-literal-and-variable-lecture-source/gradle/
+chap02-operator-lecture-source/gradle/
+chap03-method-and-api-lecture-source/gradlew
+chap02-operator-lecture-source/gradlew
+chap03-method-and-api-lecture-source/gradle/
