@@ -20,6 +20,7 @@ public class Application {
 
         /* 필기. 중첩 반복문을 활용한 별찍기 관련 예제 */
 //        bClass.printStars();
+        bClass.printStars2();
 
         C_while cClass = new C_while();
 

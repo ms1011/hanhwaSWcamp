@@ -85,4 +85,66 @@ public class B_nestedFor {
         }
     }
 
+    public void printStars2() {
+        /*
+         *     *
+         *    ***
+         *   *****
+         *    ***
+         *     *
+         * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("정수를 입력하세요 : ");
+        int input = sc.nextInt();
+
+        if(input % 2 == 1){
+            // 위쪽 부분 출력
+            for (int i = 0; i < input / 2 + 1; i++) {
+                for (int j = 0; j < input / 2 - i; j++) {
+                    System.out.print(" ");
+                }
+                for (int k = 0; k < 2 * i + 1; k++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+
+            // 아래쪽 부분 출력
+            for (int i = input / 2 - 1; i >= 0; i--) {
+                for (int j = 0; j < input / 2 - i; j++) {
+                    System.out.print(" ");
+                }
+                for (int k = 0; k < 2 * i + 1; k++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+        } else {
+            // 위쪽 부분 출력
+            for (int i = 0; i < input / 2; i++) {
+                for (int j = 0; j < input / 2 - i; j++) {
+                    System.out.print(" ");
+                }
+                for (int k = 0; k <= 2 * i + 1; k++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+
+            // 아래쪽 부분 출력
+            for (int i = input / 2 - 1; i >= 0; i--) {
+                for (int j = 0; j < input / 2 - i; j++) {
+                    System.out.print(" ");
+                }
+                for (int k = 0; k <= 2 * i + 1; k++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+        }
+    }
+
+
+
 }
