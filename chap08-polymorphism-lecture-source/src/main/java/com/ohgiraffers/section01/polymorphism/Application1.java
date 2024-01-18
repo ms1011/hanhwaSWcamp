@@ -55,6 +55,7 @@ public class Application1 {
         Animal animal2 = new Tiger();       // 자동형변환(auto up-casting), 다형성, 묵시적형변환
         Rabbit rabbit2 = (Rabbit)an2;       // 강제형변환(down-casting), 다형성 X, 명시적형변환
 
+
         Animal animal3 = new Animal();
 
     }
