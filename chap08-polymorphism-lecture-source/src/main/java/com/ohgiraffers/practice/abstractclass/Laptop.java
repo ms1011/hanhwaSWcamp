@@ -1,4 +1,4 @@
-package com.ohgiraffers.practice;
+package com.ohgiraffers.practice.abstractclass;
 
 public class Laptop extends Computer {
     private boolean cover;

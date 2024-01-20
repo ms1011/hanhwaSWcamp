@@ -1,4 +1,4 @@
-package com.ohgiraffers.practice;
+package com.ohgiraffers.practice.abstractclass;
 
 public class SmartPhone extends Computer {
     public SmartPhone() {

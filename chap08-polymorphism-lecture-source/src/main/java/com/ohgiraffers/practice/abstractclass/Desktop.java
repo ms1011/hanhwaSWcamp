@@ -1,4 +1,4 @@
-package com.ohgiraffers.practice;
+package com.ohgiraffers.practice.abstractclass;
 
 public class Desktop extends Computer {
     public Desktop() {

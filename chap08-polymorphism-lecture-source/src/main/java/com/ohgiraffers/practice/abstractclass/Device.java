@@ -1,4 +1,4 @@
-package com.ohgiraffers.practice;
+package com.ohgiraffers.practice.abstractclass;
 
 public abstract class Device {
     private boolean power;
