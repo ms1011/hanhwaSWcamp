@@ -30,6 +30,17 @@ public class Application {
         System.out.println(backendProgrammers[1]);
         System.out.println(frontendProgrammers[2]);
 
+        int backendPay = 15000;
+        int frontendPay = 13000;
+
+        academy.paySalary(backendProgrammers[0], backendPay, 21);
+        academy.paySalary(backendProgrammers[1], backendPay, 20);
+        academy.paySalary(backendProgrammers[2], backendPay, 14);
+
+        academy.paySalary(frontendProgrammers[0], frontendPay, 19);
+        academy.paySalary(frontendProgrammers[1], frontendPay, 7);
+        academy.paySalary(frontendProgrammers[2], frontendPay, 21);
+
         academy.quitStudent(backendProgrammers[2]);
         academy.quitStudent(frontendProgrammers[1]);
 
