@@ -1,6 +1,6 @@
 package com.ohgiraffers.practice.inteface;
 
-public class Application {
+public class                                    Application {
     public static void main(String[] args) {
         // 학원 생성
         Academy academy = new Academy();
