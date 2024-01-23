@@ -1,8 +1,6 @@
 package com.ohgiraffers.section01.list.run;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Application1 {
     public static void main(String[] args) {
@@ -84,5 +82,39 @@ public class Application1 {
 
         aList.add(null);
         System.out.println(aList);
+
+        /* 설명. ArrayList를 활용해 정렬을 진행해 보자 */
+        List<String> stringList = new ArrayList<>();
+        stringList.add("apple");
+        stringList.add("orange");
+        stringList.add("banana");
+        stringList.add("mango");
+        stringList.add("grape");
+
+        System.out.println("stringList = " + stringList);
+
+        /* 설명. Collections의 sort() 메소드를 활용한 정렬 */
+        Collections.sort(stringList);
+        System.out.println("stringList = " + stringList);
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(4);
+        integerList.add(20);
+        integerList.add(7);
+        integerList.add(11);
+        integerList.add(15);
+
+        System.out.println("integerList = " + integerList);
+
+        Collections.sort(integerList);
+        System.out.println("integerList = " + integerList);
+
+        /* 설명. 내림차순으로 바꾸기 위해 ArrayList에서 LinkedList로 교체 */
+        stringList = new LinkedList<>(stringList);
+        Iterator<String> iter = ((LinkedList<String>)stringList).descendingIterator();
+        while(iter.hasNext()) {
+            System.out.println(iter.next());
+        }
+
     }
 }
