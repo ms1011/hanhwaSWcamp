@@ -10,7 +10,7 @@ public class Application2 {
         /* 수업목표. FileReader를 이해하고 활용할 수 있다 */
         /* 필기.
          *  FileReader는 인코딩 방식에 맞에 한 글자씩 입력 받을 수 있는 스트림이다
-         *  (숫자/특수기호/영어 - 1byte, 한글/그외 언어 -3byte (UTF-8 기준))
+         *  (숫자/특수기호/영어 - 1byte, 한글/그외 언어 - 3byte (UTF-8 기준))
         * */
         FileReader fr = null;
 
