@@ -8,9 +8,11 @@ public class Application {
         /* 설명. 과제. 중복되지 않는 번호를 발생시켜 로또 번호 발생기 만들기(TreeSet 사용하지 않고) */
         int[] lotto = new int[6];
         boolean flag = false;
+
         for (int i = 0; i < 6; i++) {
             flag = false;
             int num = (int)((Math.random() * 45) + 1);
+
             for (int j = 0; j < lotto.length; j++) {
                 if(lotto[j] == num) {
                     flag = true;
