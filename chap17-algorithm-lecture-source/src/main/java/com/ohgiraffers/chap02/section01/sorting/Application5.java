@@ -16,6 +16,7 @@ public class Application5 {
 
         int median = low + (high - low) / 2;
 
+        System.out.println("low = " + low + " high = " + high);
         /* 설명. 좌측 절반 정렬 */
         solution(low, median, arr);
 
