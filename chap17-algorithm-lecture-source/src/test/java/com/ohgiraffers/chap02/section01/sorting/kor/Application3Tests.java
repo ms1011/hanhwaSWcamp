@@ -1,6 +1,6 @@
 package com.ohgiraffers.chap02.section01.sorting.kor;
 
-import com.ohgiraffers.chap02.section01.sorting.Application3;
+import com.ohgiraffers.chap02.section01.sorting.kor.Application3;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
