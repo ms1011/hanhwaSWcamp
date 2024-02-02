@@ -39,7 +39,7 @@ public class Application4 {
         for (int i = 1; i <= n; i++) {
             if(ans < dp[n][i]) ans = dp[n][i];
         }
-        
+
         return ans;
     }
 
