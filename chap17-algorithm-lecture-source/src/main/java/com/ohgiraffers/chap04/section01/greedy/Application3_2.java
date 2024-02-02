@@ -37,9 +37,6 @@ public class Application3_2 {
         return cnt;
     }
 
-    public static void main(String[] args){
-
-    }
 }
 
 class Time implements Comparable<Time> {
